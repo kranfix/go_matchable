@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestIntMatcher(t *testing.T) {
+func TestOptionIntMatcher(t *testing.T) {
 	some := Some[int]{Val: 1}
 	none := None[int]{}
 
